@@ -1,0 +1,88 @@
+const defaultCryptos = [
+  {
+    name: 'Bitcoin',
+    symbol: 'BTC',
+    price: 64280.11,
+    image: 'https://assets.coingecko.com/coins/images/1/large/bitcoin.png',
+    change24h: 3.42,
+  },
+  {
+    name: 'Ethereum',
+    symbol: 'ETH',
+    price: 3165.82,
+    image: 'https://assets.coingecko.com/coins/images/279/large/ethereum.png',
+    change24h: 2.17,
+  },
+  {
+    name: 'Solana',
+    symbol: 'SOL',
+    price: 146.57,
+    image: 'https://assets.coingecko.com/coins/images/4128/large/solana.png',
+    change24h: 5.31,
+  },
+  {
+    name: 'BNB',
+    symbol: 'BNB',
+    price: 602.44,
+    image: 'https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png',
+    change24h: 1.26,
+  },
+  {
+    name: 'XRP',
+    symbol: 'XRP',
+    price: 0.61,
+    image: 'https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png',
+    change24h: -0.44,
+  },
+  {
+    name: 'Dogecoin',
+    symbol: 'DOGE',
+    price: 0.17,
+    image: 'https://assets.coingecko.com/coins/images/5/large/dogecoin.png',
+    change24h: 4.85,
+  },
+  {
+    name: 'Cardano',
+    symbol: 'ADA',
+    price: 0.46,
+    image: 'https://assets.coingecko.com/coins/images/975/large/cardano.png',
+    change24h: 0.92,
+  },
+  {
+    name: 'Avalanche',
+    symbol: 'AVAX',
+    price: 34.79,
+    image: 'https://assets.coingecko.com/coins/images/12559/large/Avalanche_Circle_RedWhite_Trans.png',
+    change24h: 2.63,
+  },
+  {
+    name: 'Chainlink',
+    symbol: 'LINK',
+    price: 14.12,
+    image: 'https://assets.coingecko.com/coins/images/877/large/chainlink-new-logo.png',
+    change24h: 1.71,
+  },
+  {
+    name: 'Polkadot',
+    symbol: 'DOT',
+    price: 6.22,
+    image: 'https://assets.coingecko.com/coins/images/12171/large/polkadot.png',
+    change24h: -1.08,
+  },
+  {
+    name: 'Sui',
+    symbol: 'SUI',
+    price: 1.54,
+    image: 'https://assets.coingecko.com/coins/images/26375/large/sui_asset.jpeg',
+    change24h: 7.22,
+  },
+  {
+    name: 'Litecoin',
+    symbol: 'LTC',
+    price: 84.67,
+    image: 'https://assets.coingecko.com/coins/images/2/large/litecoin.png',
+    change24h: -0.53,
+  },
+]
+
+export default defaultCryptos
